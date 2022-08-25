@@ -1,0 +1,7 @@
+riddler_module.riddles:
+  path: "/riddler"
+  defaults:
+    _controller: '\Drupal\riddler_module\Controller\RiddlerController::riddle'
+    _title: "This might be something"
+  requirements:
+    _permission: "access content"

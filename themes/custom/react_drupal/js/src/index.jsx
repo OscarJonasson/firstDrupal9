@@ -1,7 +1,7 @@
 import React from "react";
-import { ReactDom } from "react-dom";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./main.css";
 
-ReactDOM.render(
-  <h1>Hello react - drupal together</h1>,
-  document.getElementById("react-app")
-);
+const root = ReactDOM.createRoot(document.getElementById("react-app"));
+root.render(<App />);

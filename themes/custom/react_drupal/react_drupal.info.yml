@@ -1,0 +1,6 @@
+name: React Drupal
+type: theme
+description: React app inside Drupal
+base theme: bartik
+core_version_requirement: ^9
+version: 1.0.0

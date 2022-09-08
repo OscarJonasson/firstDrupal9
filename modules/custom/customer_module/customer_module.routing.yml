@@ -1,0 +1,7 @@
+customer_module.links:
+  path: "/page/links"
+  defaults:
+    _controller: '\Drupal\customer_module\Controller\CustomerController::links'
+    _title: "Drupal 9 customer module"
+  requirements:
+    _permission: "TRUE"

@@ -1,0 +1,16 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+function customer_module_help($route_name, RouteMatchInterface $route_match ){
+    switch ($route_name) {
+        case 'help.page.customer_module':
+            $output='';
+            $output .= 'Helps the customer';
+            return $output;
+        
+        default:
+            break;
+    }
+}

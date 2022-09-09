@@ -1,0 +1,22 @@
+uuid: b3d29bac-c7bd-4ad2-844b-d9b17ea00464
+langcode: en
+status: true
+dependencies:
+  theme:
+    - icecream_theme
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: icecream_theme_primary_local_tasks
+theme: icecream_theme
+region: menu
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

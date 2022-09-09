@@ -1,0 +1,25 @@
+uuid: 76172909-00e1-4228-a36d-d8ec263c031c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0c0af6c1-e594-416b-b29b-42fff9907bb0'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: drupalisfun
+theme: olivero
+region: footer_top
+weight: -8
+provider: null
+plugin: 'block_content:0c0af6c1-e594-416b-b29b-42fff9907bb0'
+settings:
+  id: 'block_content:0c0af6c1-e594-416b-b29b-42fff9907bb0'
+  label: 'Drupal is fun'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

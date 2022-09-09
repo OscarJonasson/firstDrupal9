@@ -1,0 +1,29 @@
+uuid: 4fd98907-fbea-4580-b4ca-4dbd184907f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - react_drupal
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: react_drupal_page_title
+theme: react_drupal
+region: sidebar_first
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

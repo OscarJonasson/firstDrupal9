@@ -1,0 +1,9 @@
+uuid: 26b10be3-0cf8-48b6-bbec-8076d181127d
+langcode: en
+status: true
+dependencies: {  }
+id: mysource
+label: Mysource
+type: FileDirectory
+config:
+  directory: ~/Downloads

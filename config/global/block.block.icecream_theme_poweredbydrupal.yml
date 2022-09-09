@@ -1,0 +1,20 @@
+uuid: 9f007b3d-88e4-41be-a52f-fc2a246c9500
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - icecream_theme
+id: icecream_theme_poweredbydrupal
+theme: icecream_theme
+region: header
+weight: 4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

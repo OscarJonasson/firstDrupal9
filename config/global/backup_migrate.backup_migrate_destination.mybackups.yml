@@ -1,0 +1,9 @@
+uuid: 7ab60db8-57b7-4172-88b3-06f2b0e56ff8
+langcode: en
+status: true
+dependencies: {  }
+id: mybackups
+label: Mybackups
+type: Directory
+config:
+  directory: ~/Downloads
